@@ -1,0 +1,36 @@
+# Ignore WordPress core
+/wp-admin/
+/wp-includes/
+
+# Ignore root WordPress files
+/index.php
+/license.txt
+/readme.html
+/wp-*.php
+/xmlrpc.php
+
+# Ignore config (VERY IMPORTANT)
+/wp-config.php
+
+# Ignore uploads (optional but recommended)
+/wp-content/uploads/
+
+# Ignore ALL plugins except your custom one
+/wp-content/plugins/*
+!/wp-content/plugins/
+!/wp-content/plugins/your-custom-plugin/
+
+# Ignore ALL themes except your custom theme
+/wp-content/themes/*
+!/wp-content/themes/
+!/wp-content/themes/quiet-cafe-theme/
+
+# Logs & system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Node / build files (if using)
+node_modules/
+dist/
+vendor/
